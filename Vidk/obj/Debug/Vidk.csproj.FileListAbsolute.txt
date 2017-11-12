@@ -99,3 +99,4 @@ G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.csproj.GenerateResource.Cache
 G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.AddIsSubscribedToCustomer.resources
 G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.AddMemebershipType.resources
 G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.PouplateMembershipTypes.resources
+G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.ApplyAnnotationsToCustomerName.resources
