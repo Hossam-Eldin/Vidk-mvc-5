@@ -100,3 +100,5 @@ G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.AddIsSubscribedToCustom
 G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.AddMemebershipType.resources
 G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.PouplateMembershipTypes.resources
 G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.ApplyAnnotationsToCustomerName.resources
+G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.AddNameToMembershiptType.resources
+G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.SetNameToMembershiptType.resources
