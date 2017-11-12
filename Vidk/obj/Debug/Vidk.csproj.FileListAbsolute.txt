@@ -102,3 +102,7 @@ G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.PouplateMembershipTypes
 G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.ApplyAnnotationsToCustomerName.resources
 G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.AddNameToMembershiptType.resources
 G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.SetNameToMembershiptType.resources
+G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.AddBirthdateToCusomter.resources
+G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.AddGenreModel.resources
+G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.UpdateMoviesModel.resources
+G:\git-repos\asp.net\Vidk\Vidk\obj\Debug\Vidk.Migrations.SeedMoviesData.resources

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.Entity;
 using System.Web;
 using System.Web.Mvc;
 using Vidk.Models;
@@ -9,22 +10,39 @@ namespace Vidk.Controllers
 {
     public class MoviesController : Controller
     {
+        private ApplicationDbContext _context;
+
+        public MoviesController()
+        {
+            _context = new ApplicationDbContext();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            _context.Dispose();
+        }
+
+
         // GET: Movies
         public ViewResult Index()
         {
-            var Movies = GetMovies();
+            var Movies = _context.Movies.Include(m => m.Genre).ToList();
 
             return View(Movies);
         }
 
 
-        private IEnumerable<Movies>  GetMovies()
+
+        public ActionResult Details(int id)
         {
-            return new List<Movies>
-                {
-                   new Movies { Id = 1, Name = "God Father" },
-                   new Movies{Id = 2, Name = "Lord of the rings"}
-                };
+            var movie = _context.Movies.Include(m => m.Genre).SingleOrDefault(m => m.Id == id);
+            if (movie == null)
+            {
+                return HttpNotFound();
+            }
+            return View(movie);
         }
+
+
     }
 }

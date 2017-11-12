@@ -224,9 +224,26 @@
     <Compile Include="Migrations\201711121344575_SetNameToMembershiptType.Designer.cs">
       <DependentUpon>201711121344575_SetNameToMembershiptType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711121358131_AddBirthdateToCusomter.cs" />
+    <Compile Include="Migrations\201711121358131_AddBirthdateToCusomter.Designer.cs">
+      <DependentUpon>201711121358131_AddBirthdateToCusomter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711121439252_AddGenreModel.cs" />
+    <Compile Include="Migrations\201711121439252_AddGenreModel.Designer.cs">
+      <DependentUpon>201711121439252_AddGenreModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711121440360_UpdateMoviesModel.cs" />
+    <Compile Include="Migrations\201711121440360_UpdateMoviesModel.Designer.cs">
+      <DependentUpon>201711121440360_UpdateMoviesModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711121650489_SeedMoviesData.cs" />
+    <Compile Include="Migrations\201711121650489_SeedMoviesData.Designer.cs">
+      <DependentUpon>201711121650489_SeedMoviesData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MemberShipType.cs" />
@@ -296,6 +313,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -336,6 +354,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711121344575_SetNameToMembershiptType.resx">
       <DependentUpon>201711121344575_SetNameToMembershiptType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711121358131_AddBirthdateToCusomter.resx">
+      <DependentUpon>201711121358131_AddBirthdateToCusomter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711121439252_AddGenreModel.resx">
+      <DependentUpon>201711121439252_AddGenreModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711121440360_UpdateMoviesModel.resx">
+      <DependentUpon>201711121440360_UpdateMoviesModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711121650489_SeedMoviesData.resx">
+      <DependentUpon>201711121650489_SeedMoviesData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
