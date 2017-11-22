@@ -38,6 +38,21 @@ namespace Vidk.Controllers
 
         public ActionResult Create(Customer customer)
         {
+
+            if (!ModelState.IsValid)
+            {
+
+               var viewModel = new NewCustomerViewModel
+                {
+                    Customer =new Customer(),
+                    MemberShipTypes = _context.MemberShipTypes.ToList()
+                };
+
+                return View("New", viewModel);
+
+            }
+
+
             if (customer.Id == 0)
                 _context.Customers.Add(customer);
 
