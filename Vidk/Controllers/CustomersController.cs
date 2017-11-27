@@ -36,6 +36,8 @@ namespace Vidk.Controllers
             return View(viewModel);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(Customer customer)
         {
 
@@ -106,3 +108,4 @@ namespace Vidk.Controllers
 
     }
 }
+
